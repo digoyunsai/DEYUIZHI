@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>WebCat</title>
+ <style>
+ 
+ h1{text-align:center;}
+ p{text-align:center;
+   margin:70px;}
+ div{background:rgba(126,125,128,0.6);
+   text-align:center;}
+ div:hover{background-color:red;}
+ .qe{margin-top:20px;}
+ .qr{margin-top:20px;}
+ .qy{margin-top:20px;}
+ .qu{margin-top:20px;}
+ img{width:70px;}
+ .gg{margin-top:20px;}
+ .gf{margin-top:20px;}
+ button{
+  display:block;
+  margin:0 auto;
+   background:rgba(126,125,128,0.6);}
+ #ncv{
+   width:100%;
+   }
+ .基3{margin-top:20px;}
+ .基4{margin-top:20px;}
+ .戈3{margin-top:20px;}
+ .戈4{margin-top:20px;}
+ .芬3{margin-top:20px;}
+ .芬4{margin-top:20px;}
+  .虎3{margin-top:20px;}
+ .虎4{margin-top:20px;}
+   .巴3{margin-top:20px;}
+ .巴4{margin-top:20px;}
+ .九3{margin-top:20px;}
+ .九4{margin-top:20px;}
+  .十3{margin-top:20px;}
+ .十4{margin-top:20px;}
+  .mm111{margin-top:20px;}
+ .kk111{margin-top:20px;}
+ </style>
+  </head>
+  <body>	
+	<h1 id="qw">第一个问题:</h1>
+	<p id="qe">二战是什么时候发起的()</p>  
+ <div class="qw" onclick="a()">A.1949年10月1日</div>
+ <div class="qe" onclick="b()">B.1945年5月8日</div>
+ <div class="qr" onclick="c()">C.1939年9月1日</div>
+ 	<h1 style="display:none;" id="as">第二个问题:</h1>
+	<p style="display:none;" id="ad">二战打了几年()</p>  
+ <div class="qt" onclick="as()" style="display:none;">A.8年</div>
+ <div class="qy" onclick="bs()" style="display:none;">B.6年</div>
+ <div class="qu" onclick="cs()" style="display:none;">C.14年</div>
+ 	<h1 style="display:none;" id="os">第三个问题:</h1>
+	<p style="display:none;" id="od">下列哪个是纳粹旗()</p>  
+ <img src="1.jpg" style="display:none;" onclick="zh()" class="gh"/>
+ <img src="2.jpg" style="display:none;" onclick="zn()" class="gg"/>
+ <img src="3.jpg" style="display:none;" onclick="zm()" class="gf"/>
+ <h1 style="display:none;" id="基0">第四个问题:</h1>
+ <p id="基1" style="display:none;" >基辅保卫战是什么时候开始的()</p>  
+ <div class="基2" onclick="基2()" style="display:none;">A.1941年7月7日</div>
+ <div class="基3" onclick="基3()" style="display:none;">B.1945年8月5日</div>
+ <div class="基4" onclick="基4()" style="display:none;">C.1964年5月12日</div>
+  <h1 style="display:none;" id="戈0">第五个问题:</h1>
+ <p id="戈1" style="display:none;" >戈培尔最后去向如何()</p>  
+ <div class="戈2" onclick="戈2()" style="display:none;">A.被判十年监禁</div>
+ <div class="戈3" onclick="戈3()" style="display:none;">B.自杀</div>
+ <div class="戈4" onclick="戈4()" style="display:none;">C.向敌人投降</div>
+<h1 style="display:none;" id="芬0">第六个问题:</h1>
+ <p id="芬1" style="display:none;">芬兰大约在什么时候打野()</p>  
+ <div class="芬2" onclick="芬2()" style="display:none;">A.1941年5月~1944年6月</div>
+ <div class="芬3" onclick="芬3()" style="display:none;">B.1939年9月~1945年5月</div>
+ <div class="芬4" onclick="芬4()" style="display:none;">C.1945年7月~1949年10月</div>
+	<h1 style="display:none;" id="虎0">第七个问题:</h1>
+	<p style="display:none;" id="虎1">下列哪个是虎式坦克()</p>  
+ <img src="虎.jpg" style="display:none;" onclick="虎2()" class="虎2"/>
+ <img src="谢.jpg" style="display:none;" onclick="虎3()" class="虎3"/>
+ <img src="特.jpg" style="display:none;" onclick="虎4()" class="虎4"/>
+ <h1 style="display:none;" id="巴0">第八个问题:</h1>
+ <p id="巴1" style="display:none;">"巴巴罗萨行动"发生时间()</p>  
+ <div class="巴2" onclick="巴2()" style="display:none;">A.1942年6月~1944年6月</div>
+ <div class="巴3" onclick="巴3()" style="display:none;">B.1939年9月~1945年5月</div>
+ <div class="巴4" onclick="巴4()" style="display:none;">C.1941年6月~1942年1月</div>
+ <h1 style="display:none;" id="九0">第九个问题:</h1>
+ <p id="九1" style="display:none;">二战参战国家( )个</p>  
+ <div class="九2" onclick="九2()" style="display:none;">A.61个</div>
+ <div class="九3" onclick="九3()" style="display:none;">B.35个</div>
+ <div class="九4" onclick="九4()" style="display:none;">C.47个</div>
+<h1 style="display:none;" id="十0">第十个问题:</h1>
+ <p id="十1" style="display:none;">二战的阵营分别是( )</p>  
+ <div class="十2" onclick="十2()" style="display:none;">A.轴心国、联合国</div>
+ <div class="十3" onclick="十3()" style="display:none;">B.轴心国、同盟国</div>
+ <div class="十4" onclick="十4()" style="display:none;">C.轴心国、合众国</div>
+
+ <h1 id="m11" style="display:none;">欢迎你,加入我们德粉群聊吧</h1>
+ <button id="m111"  style="display:none;" onclick="hoh()">点击查看</button>
+   <marquee><h1 id="a">网站制作者(快手用户名称:"HYUI.帝国·元帅")</h1>
+     <h1 id="b"><p>快手号:3060000706</p></h1>
+ <script>
+   var MW=0
+ function a(){
+     MW++
+ alert("答案错误");
+ if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+ }
+ function b(){
+     MW++
+ alert("答案错误。");
+ if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+ }
+function c(){
+let a = document.querySelector("#qw")
+let b = document.querySelector("#qe")
+let c = document.querySelector(".qw")
+let d = document.querySelector(".qe")
+let e = document.querySelector(".qr")
+let as = document.querySelector("#as")
+let bs = document.querySelector("#ad")
+let cs = document.querySelector(".qt")
+let ds = document.querySelector(".qy")
+let es = document.querySelector(".qu")
+  a.style.display = "none"
+  b.style.display = "none"
+  c.style.display = "none"
+  d.style.display = "none"
+  e.style.display = "none"
+  
+  as.style.display = "block"
+  bs.style.display = "block"
+  cs.style.display = "block"
+  ds.style.display = "block"
+  es.style.display = "block"
+}
+function as(){
+ MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function cs(){
+  MW++
+ alert("答案错误");
+ if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+ }
+function bs(){
+let as = document.querySelector("#as")
+let bs = document.querySelector("#ad")
+let cs = document.querySelector(".qt")
+let ds = document.querySelector(".qy")
+let es = document.querySelector(".qu")
+
+let ui = document.querySelector("#os")
+let uo = document.querySelector("#od")
+let up = document.querySelector(".gh")
+let um = document.querySelector(".gg")
+let ub = document.querySelector(".gf")
+as.style.display = "none"
+  bs.style.display = "none"
+  cs.style.display = "none"
+  ds.style.display = "none"
+  es.style.display = "none"
+  ui.style.display = "block"
+  uo.style.display = "block"
+  up.style.display = "block"
+  um.style.display = "block"
+  ub.style.display = "block"
+}
+function zn(){
+    MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function zm(){
+    MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function zh(){
+let uiu = document.querySelector("#os")
+let uou = document.querySelector("#od")
+let upu = document.querySelector(".gh")
+let umu = document.querySelector(".gg")
+let ubu = document.querySelector(".gf")
+let my = document.querySelector("#基0")
+let names = document.querySelector("#基1")
+let 战 = document.querySelector(".基2")
+let 争 = document.querySelector(".基3")
+let 狂 = document.querySelector(".基4")
+   uiu.style.display = "none"
+  uou.style.display = "none"
+  upu.style.display = "none"
+  umu.style.display = "none"
+  ubu.style.display = "none"
+  my.style.display = "block"
+  names.style.display = "block"
+  战.style.display = "block"
+  争.style.display = "block"
+  狂.style.display = "block"
+}
+function 基3(){
+   MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 基4(){
+   MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 基2(){
+let 无 = document.querySelector("#基0")
+let 上 = document.querySelector("#基1")
+let 光 = document.querySelector(".基2")
+let 荣 = document.querySelector(".基3")
+let 王 = document.querySelector(".基4")
+let 二 = document.querySelector("#戈0")
+let 小 = document.querySelector("#戈1")
+let 平 = document.querySelector(".戈2")
+let 白 = document.querySelector(".戈3")
+let 人 = document.querySelector(".戈4")
+   无.style.display = "none"
+  上.style.display = "none"
+  光.style.display = "none"
+  荣.style.display = "none"
+  王.style.display = "none"
+  二.style.display = "block"
+  小.style.display = "block"
+  平.style.display = "block"
+  白.style.display = "block"
+  人.style.display = "block"
+}
+function 戈2(){
+  MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 戈4(){
+  MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 戈3(){
+let 无1 = document.querySelector("#戈0")
+let 上2 = document.querySelector("#戈1")
+let 光3 = document.querySelector(".戈2")
+let 荣4 = document.querySelector(".戈3")
+let 王5 = document.querySelector(".戈4")
+let 二6 = document.querySelector("#芬0")
+let 小7 = document.querySelector("#芬1")
+let 平8 = document.querySelector(".芬2")
+let 白9 = document.querySelector(".芬3")
+let 人10 = document.querySelector(".芬4")
+   
+   无1.style.display = "none"
+  上2.style.display = "none"
+  光3.style.display = "none"
+  荣4.style.display = "none"
+  王5.style.display = "none"
+  
+  二6.style.display = "block"
+  小7.style.display = "block"
+  平8.style.display = "block"
+  白9.style.display = "block"
+  人10.style.display = "block"
+}
+function 芬3(){
+  MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 芬4(){
+  MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 芬2(){
+let 无11 = document.querySelector("#芬0")
+let 上22 = document.querySelector("#芬1")
+let 光33 = document.querySelector(".芬2")
+let 荣44 = document.querySelector(".芬3")
+let 王55 = document.querySelector(".芬4")
+let 二66 = document.querySelector("#虎0")
+let 小77 = document.querySelector("#虎1")
+let 平88 = document.querySelector(".虎2")
+let 白99 = document.querySelector(".虎3")
+let 人100 = document.querySelector(".虎4")
+   
+   无11.style.display = "none"
+  上22.style.display = "none"
+  光33.style.display = "none"
+  荣44.style.display = "none"
+  王55.style.display = "none"
+  
+  二66.style.display = "block"
+  小77.style.display = "block"
+  平88.style.display = "block"
+  白99.style.display = "block"
+  人100.style.display = "block"
+}
+function 虎3(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 虎4(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 虎2(){
+let 虎11 = document.querySelector("#虎0")
+let 虎22 = document.querySelector("#虎1")
+let 虎33 = document.querySelector(".虎2")
+let 虎44 = document.querySelector(".虎3")
+let 虎55 = document.querySelector(".虎4")
+let 虎66 = document.querySelector("#巴0")
+let 虎77 = document.querySelector("#巴1")
+let 虎88 = document.querySelector(".巴2")
+let 虎99 = document.querySelector(".巴3")
+let 虎100 = document.querySelector(".巴4")
+   
+   虎11.style.display = "none"
+  虎22.style.display = "none"
+  虎33.style.display = "none"
+  虎44.style.display = "none"
+  虎55.style.display = "none"
+  
+  虎66.style.display = "block"
+  虎77.style.display = "block"
+  虎88.style.display = "block"
+  虎99.style.display = "block"
+  虎100.style.display = "block"
+}
+function 巴2(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 巴3(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 巴4(){
+let 巴11 = document.querySelector("#巴0")
+let 巴22 = document.querySelector("#巴1")
+let 巴33 = document.querySelector(".巴2")
+let 巴44 = document.querySelector(".巴3")
+let 巴55 = document.querySelector(".巴4")
+let 巴66 = document.querySelector("#九0")
+let 巴77 = document.querySelector("#九1")
+let 巴88 = document.querySelector(".九2")
+let 巴99 = document.querySelector(".九3")
+let 巴100 = document.querySelector(".九4")
+   
+   巴11.style.display = "none"
+  巴22.style.display = "none"
+  巴33.style.display = "none"
+  巴44.style.display = "none"
+  巴55.style.display = "none"
+  
+ 巴66.style.display = "block"
+  巴77.style.display = "block"
+  巴88.style.display = "block"
+  巴99.style.display = "block"
+  巴100.style.display = "block"
+}
+function 九3(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 九4(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 九2(){
+let 九11 = document.querySelector("#九0")
+let 九22 = document.querySelector("#九1")
+let 九33 = document.querySelector(".九2")
+let 九44 = document.querySelector(".九3")
+let 九55 = document.querySelector(".九4")
+let 九66 = document.querySelector("#十0")
+let 九77 = document.querySelector("#十1")
+let 九88 = document.querySelector(".十2")
+let 九99 = document.querySelector(".十3")
+let 九100 = document.querySelector(".十4")
+   
+   九11.style.display = "none"
+  九22.style.display = "none"
+  九33.style.display = "none"
+  九44.style.display = "none"
+  九55.style.display = "none"
+  
+ 九66.style.display = "block"
+  九77.style.display = "block"
+  九88.style.display = "block"
+  九99.style.display = "block"
+  九100.style.display = "block"
+}
+function 十2(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 十4(){
+MW++
+alert("答案错误");
+if(MW%2==0){
+ document.body.innerHTML="<h1>很遗憾,你还不是真正的德粉。(请多修炼。)</h1><p>请重新访问网站</p>"
+ }
+}
+function 十3(){
+let 十11 = document.querySelector("#十0")
+let 十22 = document.querySelector("#十1")
+let 十33 = document.querySelector(".十2")
+let 十44 = document.querySelector(".十3")
+let 十55 = document.querySelector(".十4")
+let 十66 = document.querySelector("#m11")
+let 十77 = document.querySelector("#m111")
+let 十99 = document.querySelector("#a")
+let 十100 = document.querySelector("#b")
+   
+   十11.style.display = "none"
+  十22.style.display = "none"
+  十33.style.display = "none"
+  十44.style.display = "none"
+  十55.style.display = "none"
+  
+ 十66.style.display = "block"
+  十77.style.display = "block"
+  十99.style.display = "block"
+  十100.style.display = "block"
+  
+}
+function hoh(){
+    window.location.href="德.html";
+}
+ </script>
+  </body>
+</html>
